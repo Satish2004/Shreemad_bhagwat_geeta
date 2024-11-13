@@ -6,7 +6,7 @@
 #root {
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(#5a47ce, #232323 80%);
+  background: radial-gradient(#E4B02C, #ef680ed4 90%);
 }
 
 body {
@@ -15,4 +15,24 @@ body {
 
 .outline-text {
   -webkit-text-stroke: 1px white;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ef680ed4 ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white ;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

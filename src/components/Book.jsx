@@ -19,7 +19,7 @@ import {
 import { degToRad } from "three/src/math/MathUtils.js";
 import { pageAtom, pages } from "./UI";
 
-const easingFactor = 0.5; // Controls the speed of the easing
+const easingFactor = 0.7; // Controls the speed of the easing
 const easingFactorFold = 0.3; // Controls the speed of the easing
 const insideCurveStrength = 0.18; // Controls the strength of the curve
 const outsideCurveStrength = 0.05; // Controls the strength of the curve
@@ -75,7 +75,7 @@ const pageMaterials = [
     color: whiteColor,
   }),
   new MeshStandardMaterial({
-    color: "#111",
+    color: "#000",
   }),
   new MeshStandardMaterial({
     color: whiteColor,
@@ -86,9 +86,9 @@ const pageMaterials = [
 ];
 
 pages.forEach((page) => {
-  useTexture.preload(`/textures/${page.front}.jpg`);
+  // useTexture.preload(`/textures/${page.front}.jpg`);
   useTexture.preload(`/textures/${page.back}.jpg`);
-  useTexture.preload(`/textures/book-cover-roughness.jpg`);
+
 });
 
 const Page = ({ number, front, back, page, opened, bookClosed, ...props }) => {
