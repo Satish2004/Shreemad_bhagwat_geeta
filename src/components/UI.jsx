@@ -61,27 +61,27 @@ pages.push({
 
 // Array of audio files for each page
 const audioFiles = [
-  " /audios/frontVoice.wav", // front cover 0
+  " /audios/frontVoice.mp3", // front cover 0
   // 18 Adhyay of bhagwat geet song of every pages
-  "/audios/chapter1.wav", //1
-  "/audios/chapter2.wav", // 2
-  "/audios/chapter3.wav", // 3
-  "/audios/chapter4.wav", // 4
-  "/audios/chapter5.wav", // 5
-  "/audios/chapter6.wav", //6
-  "/audios/chapter7.wav", //7
-  "/audios/chapter8.wav", //8
-  "/audios/chapter9.wav", //9
-  "/audios/chapter10.wav", //11
-  "/audios/chapter11.wav", //12
-  "/audios/chapter12.wav", //13
-  "/audios/chapter13.wav", //14
-  "/audios/chapter14.wav", //15
-  "/audios/chapter15.wav", //16
-  "/audios/chapter16.wav", //17
-  "/audios/chapter17.wav", //18
-  "/audios/chapter18.wav",
-  "/audios/End.wav",
+  "/audios/chapter1.mp3", //1
+  "/audios/chapter2.mp3", // 2
+  "/audios/chapter3.mp3", // 3
+  "/audios/chapter4.mp3", // 4
+  "/audios/chapter5.mp3", // 5
+  "/audios/chapter6.mp3", //6
+  "/audios/chapter7.mp3", //7
+  "/audios/chapter8.mp3", //8
+  "/audios/chapter9.mp3", //9
+  "/audios/chapter10.mp3", //11
+  "/audios/chapter11.mp3", //12
+  "/audios/chapter12.mp3", //13
+  "/audios/chapter13.mp3", //14
+  "/audios/chapter14.mp3", //15
+  "/audios/chapter15.mp3", //16
+  "/audios/chapter16.mp3", //17
+  "/audios/chapter17.mp3", //18
+  "/audios/chapter18.mp3",
+  "/audios/End.mp3",
 ];
 
 // Page flip sound
